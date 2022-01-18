@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT excursions_catalog (excursions)>
+<!ELEMENT excursions (excursion+)>
+<!ELEMENT excursion (basic_info, secondary_info, rules, excursion_more_info)>
+<!ELEMENT basic_info (code, category, name, towns, country, price, type, image)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT towns (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT secondary_info (about_excursion, about_town)>
+<!ELEMENT about_excursion (route, dates, nights_number)>
+<!ELEMENT route (#PCDATA)>
+<!ELEMENT dates (#PCDATA)>
+<!ELEMENT nights_number (#PCDATA)>
+<!ELEMENT about_town (landmarks, history, climate, time_zone, currency)>
+<!ELEMENT landmarks (#PCDATA)>
+<!ELEMENT history (#PCDATA)>
+<!ELEMENT climate (#PCDATA)>
+<!ELEMENT time_zone (#PCDATA)>
+<!ELEMENT currency (#PCDATA)>
+<!ELEMENT rules (price_include, price_not_include, necessary_documents, more_info)>
+<!ELEMENT price_include (#PCDATA)>
+<!ELEMENT price_not_include (#PCDATA)>
+<!ELEMENT necessary_documents (#PCDATA)>
+<!ELEMENT more_info (enrollment_conditions, payment_terms, penalties)>
+<!ELEMENT enrollment_conditions (#PCDATA)>
+<!ELEMENT payment_terms (#PCDATA)>
+<!ELEMENT penalties (#PCDATA)>
+<!ELEMENT excursion_more_info (program, more_excursions, images)>
+<!ELEMENT program (#PCDATA)>
+<!ELEMENT more_excursions (#PCDATA)>
+<!ELEMENT images (image+)>
+
+<!ATTLIST excursion excursionId CDATA #REQUIRED>
+<!ATTLIST basic_info code CDATA #REQUIRED>
+<!ATTLIST basic_info category (Европа|Екзотика) #REQUIRED>
+<!ATTLIST type type (Самолет|Автобус) #REQUIRED>
+<!ATTLIST price priceCurrency CDATA #REQUIRED>
+<!ATTLIST currency countryCurrency CDATA #REQUIRED>
+<!ATTLIST nights_number numberOfNights CDATA #REQUIRED>
