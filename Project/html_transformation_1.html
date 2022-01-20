@@ -5,7 +5,7 @@
     <title>XML Каталог за екскурзии</title>
     <style>
         body{
-            background-image: url("Photos/6834070e6a456c12b1ad080df4839d96.jpg");
+            background-image: url("Photos/background1.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -16,15 +16,18 @@
             border-color: rgb(60,128,78);
             font-family: "Times New Roman", Times, serif;
             text-align: center;
+            box-shadow: 10px 10px 5px #888;
         }
 
         th{
             font-size: 40px;
             background-color: rgb(175,205,189);
+            box-shadow: 10px 10px 5px #888;
         }
 
         td{
             font-size: 25px;
+            box-shadow: 10px 10px 5px #888;
         }
 
         #imgParis{
@@ -56,6 +59,43 @@
             padding-bottom: 5px;
             padding-top: 5px;
         }
+
+        #imgVenice{
+            border-radius: 10px;
+            width: 400px;
+            height: 350px;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        #imgZanzibar{
+            border-radius: 10px;
+            width: 400px;
+            height: 350px;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        button{
+            font-size: 30px;
+            font-weight: bold;
+            position: absolute;
+            margin-top: 30px;
+            background-color: rgb(175,205,189);
+            border: 3px solid black;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px #888;
+        }
+
+        .buttons{
+            display: flex;
+            flex-direction: column;
+            gap:50px;
+        }
     </style>
 </head>
 
@@ -72,7 +112,7 @@
                 <th>Снимка</th>
             </tr>
             <tr>
-                <td style="font-weight: bold; font-size:30px">ExcursionParis1</td>
+                <td style="font-weight: bold; font-size:40px">ExcursionParis1</td>
                 <td>Европа</td>
                 <td>Парижка магия</td>
                 <td>Париж</td>
@@ -81,7 +121,7 @@
                 <td><img id="imgParis" src="Photos/paris.jpg"></td>
             </tr>
             <tr>
-                <td style="font-weight: bold; font-size:30px">ExcursionDubai1</td>
+                <td style="font-weight: bold; font-size:40px">ExcursionDubai1</td>
                 <td>Екзотика</td>
                 <td>Дубай - Рай в Ориента</td>
                 <td>Дубай</td>
@@ -90,7 +130,7 @@
                 <td><img id="imgDubai" src="Photos/dubai.jpg"></td>
             </tr>
             <tr>
-                <td style="font-weight: bold; font-size:30px">ExcursionCanaryIslands1</td>
+                <td style="font-weight: bold; font-size:40px">ExcursionCanaryIslands1</td>
                 <td>Европа</td>
                 <td>Лято в Атлантическия Рай - Канарски острови</td>
                 <td>остров Тенерифе, остров Гран Канария, остров Фуертевентура</td>
@@ -98,10 +138,32 @@
                 <td>Самолет</td>
                 <td><img id="imgTenerife" src="Photos/tenerife.jpg"></td>
             </tr>
+            <tr>
+                <td style="font-weight: bold; font-size:40px">ExcursionVeniceCarnival1</td>
+                <td>Европа</td>
+                <td>Италианска класика - Милано, Верона и карнавалът във Венеция</td>
+                <td>Милано, Верона, Венеция</td>
+                <td>620лв</td>
+                <td>Самолет</td>
+                <td><img id="imgVenice" src="Photos/venice.jpg"></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size:40px">ExcursionZanzibar</td>
+                <td>Екзотика</td>
+                <td>Почивка в Занзибар</td>
+                <td>остров Занзибар</td>
+                <td>3000лв</td>
+                <td>Самолет</td>
+                <td><img id="imgZanzibar" src="Photos/zanzibar.jpg"></td>
+            </tr>
         </tbody>
     </table>
-
-
+    <div class="buttons">
+        <a href="html_transformation_2.html"><button>Важна информация за екскурзиите</button></a>
+        <a href="html_transformation_3.html"><button>Повече информация за дестинациите</button></a>
+        <a href="html_transformation_4.html"><button>Програма и снимки от дестинациите</button></a>
+        <a href="html_transformation_5.html"><button>Условия</button></a>
+    </div>
 </body>
 
 </html>

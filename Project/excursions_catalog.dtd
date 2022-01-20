@@ -3,7 +3,7 @@
 <!ELEMENT excursions_catalog (excursions)>
 <!ELEMENT excursions (excursion+)>
 <!ELEMENT excursion (basic_info, secondary_info, rules, excursion_more_info)>
-<!ELEMENT basic_info (code, category, name, towns, country, price, type, image)>
+<!ELEMENT basic_info (name, towns, country, price, type, image)>
 <!ELEMENT code (#PCDATA)>
 <!ELEMENT category (#PCDATA)>
 <!ELEMENT name (#PCDATA)>

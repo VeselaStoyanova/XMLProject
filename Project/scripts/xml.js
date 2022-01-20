@@ -90,7 +90,7 @@ function createXMLDocument() {
 
     let currency = doc.createElement("currency");
     about_town_info.appendChild(currency);
-    currency.setAttribute("countryCurrency", "Франция - Евро (EUR) - 1 € = 1,9558 лв");
+    currency.setAttribute("countryCurrency", "Испания - Евро (EUR) - 1 € = 1,9558 лв");
 
     let rules = doc.createElement("rules");
     excursion.appendChild(rules);
@@ -161,7 +161,7 @@ function createXMLDocument() {
 
     let images = doc.createElement("images");
     excursion_more_info.appendChild(images);
-    images.appendChild(doc.createTextNode("barcelona2.jpg, barcelona3.jpg"));
+    images.appendChild(doc.createTextNode("barcelona2.jpg"));
 
     return doc;
 }

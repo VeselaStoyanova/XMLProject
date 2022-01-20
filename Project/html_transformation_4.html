@@ -5,7 +5,7 @@
     <title>XML Каталог за екскурзии</title>
     <style>
         body{
-            background-image: url("Photos/6834070e6a456c12b1ad080df4839d96.jpg");
+            background-image: url("Photos/background1.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -28,30 +28,19 @@
         }
 
         .imgParis{
-            width: 350px;
-            height: 400px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-bottom: 130px;
-            padding-top: 130px;
-            display:flex;
-            align-items: center;
+            width: 370px;
+            height: 300px;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-bottom: 5px;
+            padding-top: 5px;
         }
 
         img{
             border-radius: 10px;
         }
 
-        #rightParisPhoto{
-            padding-right: 50px;
-        }
-
-        #leftParisPhoto{
-            padding-left: 50px;
-        }
-
         .imgDubai{
-
             width: 370px;
             height: 300px;
             margin-left: 25px;
@@ -61,7 +50,6 @@
         }
 
         .imgTenerife{
-
             width: 400px;
             height: 350px;
             margin-left: 25px;
@@ -70,9 +58,38 @@
             padding-top: 5px;
         }
 
-        .images{
+        .imgVenice{
+            width: 400px;
+            height: 350px;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        .imgZanzibar{
+            width: 400px;
+            height: 350px;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        button{
+            font-size: 30px;
+            font-weight: bold;
+            position: absolute;
+            margin-top: 30px;
+            background-color: rgb(175,205,189);
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+
+        .buttons{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            gap:50px;
         }
     </style>
 </head>
@@ -86,7 +103,7 @@
                 <th>Снимки</th>
             </tr>
             <tr>
-                <td style="font-weight: bold; font-size:30px">Парижка магия</td>
+                <td style="font-weight: bold; font-size:40px">Парижка магия</td>
                 <td>
                     <b>Ден 1.</b> Полет София - Париж <br/>Вечерта се пристига във френската столица. Настаняване в хотела. Вечерта има възможност за разходка по <b>река "Сена"</b>.<br/>
                     <b>Ден 2.</b> Париж <br/>Закуска. Свободно време или възможност да се включите в целодневния ни <b>тур "Сърцето на Париж"</b>.<br/>
@@ -101,13 +118,13 @@
                     <b>Ден 8.</b> Полет Париж - София <br/>Закуска. Бърза разходка из центъра
                     на Париж. Възможност за посещение на музеи/търговски центрове. Привечер се отправяме към летището за полета ни до София.
                 </td>
-                <td class="images">
-                    <img class ="imgParis" id="leftParisPhoto" src="Photos/paris2.jpg">
-                    <img class ="imgParis" id="rightParisPhoto" src="Photos/paris8.jpg">
+                <td>
+                    <img class ="imgParis" src="Photos/paris2.jpg">
+                    <img class ="imgParis"  src="Photos/paris8.jpg">
                 </td>
             </tr>
             <tr>
-                <td style="font-weight: bold; font-size:30px">Дубай - Рай в Ориента</td>
+                <td style="font-weight: bold; font-size:40px">Дубай - Рай в Ориента</td>
                 <td>
                     <b>Ден 1.</b> Полет София-Дубай<br/> Директен полет до Дубай. Кацане на летище Дубай. Трансфер до хотела. Настаняване. Нощувка.<br/>
                     <b>Ден 2.</b> Дубай<br/> Закуска. Свободно време или възможност да се включите в целодневната ни екскурзия на Дубай, която включва посещение на Малката
@@ -136,7 +153,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="font-weight: bold; font-size:30px">Лято в Атлантическия Рай - Канарски острови</td>
+                <td style="font-weight: bold; font-size:40px">Лято в Атлантическия Рай - Канарски острови</td>
                 <td>
                     <b>Ден 1.</b> Полет София-Тенерифе<br/> Директен чартърен полет от София до Тенерифе. Кацане на летище Тенерифе. Трансфер до хотела. Вечеря. Нощувка.<br/>
                     <b>Ден 2.</b> Тенерифе - Пуерто де ла Крус<br/> Закуска. Разходка до <b>Пуерто де ла Крус</b> - един от основните туристически курорти
@@ -173,10 +190,58 @@
                     <img class="imgTenerife" src="Photos/tenerife7.jpeg">
                 </td>
             </tr>
+            <tr>
+                <td style="font-weight: bold; font-size:40px">Италианска класика - Милано, Верона и карнавалът във Венеция</td>
+                <td>
+                    <b>Ден 1</b> : Полет София – Бергамо, Милано – Верона<br/>
+                    Сборен пункт на летище София за полет до Милано два часа преди полета.
+                    Пристигаме на <b>летище Бергамо</b> и следва трансфер до <b>Верона</b> - един стар, приветлив, изтънчен, ведър и вечно влюбен град. Ще се изненадате от множеството забележителности, които <b>„градът на Ромео и Жулиета“</b> ще ви разкрие за нула време. Трябва да кажем, че трагедията на Шекспир е само „куката“, която да ни закачи и потопи в средновековния дух на града. Веднъж спуснали се из улиците, по които Ромео се е гонел с Жулиета, бързо ще се убедим, че Верона е много повече от всичко, което сме си представяли. За деня е предвидена пешеходна обиколка. Вечерта се настаняваме в хотел в района на Верона. Нощувка.
+                    <br/><b>Ден 2</b> : Верона – Венеция
+                    Закусваме. За деня на <b>Свети Валентин</b> сме предвидили едно прекрасно изживяване – екскурзия до невероятната  Венеция / по желание и на доплащане/. Пристигаме на пристанище<b> Пунта Сабиони</b>, където ще се качим на корабче, за да стигнем до островния град. <b>Венеция</b> е град на канали, прелестни дворци и изящни мостове. Четири сезона в годината, в слънце и в дъжд, хора от всички раси и континенти се стичат тук. Хранят гълъбите на площад “Сан Марко”, изгубват се из уличките, купуват си сувенири, впускат се в романтично плаване по каналите, и си тръгват, отнасяйки Венеция в сърцето си. И ние ще направим точно това! Качваме се отново на корабче, за да се върнем на сушата. Вечерта отпътуваме към  хотела, намиращ се в района на Верона. Нощувка.
+                    <br/><b>Ден 3 </b>: Верона – Милано
+                    Закусваме и се отправяме към централната част на <b>Милано</b> - италианската столица на модата и големите скандали. Най-пищната и най-голяма <b>готическа катедрала</b> в света е тук! Както и <b>Миланската опера „Ла Скала“</b> и гигантския мрачен <b>замък Сфорцеско</b>. Ще видим всичко най-интересно и ще се разходим по най-престижната и луксозна модна улица в Италия. Надвечер, се отправяме към хотела ни в района на Милано. Нощувка.
+                    <br/><b>Ден 4 </b>: Полет Бергамо, Милано - София
+                    Закуска(сух пакет), следва трансфер към летище Бергамо за полета ни до София.
+                </td>
+                <td>
+                    <img class="imgVenice" src="Photos/venice1.jpg">
+                    <img class="imgVenice" src="Photos/venice2.jpg">
+                    <img class="imgVenice" src="Photos/venice3.jpg">
+                    <img class="imgVenice" src="Photos/milano2.jpeg">
+                    <img class="imgVerona" src="Photos/verona1.jpg">
+                </td>
+            </tr>
+
+            <tr>
+                <td style="font-weight: bold; font-size:40px">Почивка в Занзибар</td>
+                <td>
+                    <b>Ден 1:</b> България - Занзибар<br/>
+                    Среща на летището в България, 2 часа преди полета. Полет за Занзибар в 23:00.<br/>
+                    <b>Ден 2:</b> ЗАНЗИБАР<br/>
+                    Пристигане в Занзибар около 09:00 в Занзибар. Трансфер до избрания хотел. Информационна среща с представителя на туроператора. Свободно време. Нощувка.
+                    <br/><b>Ден 3 - Ден 8:</b><br/>
+                    Закуска. Свободно време за плаж и забавления или допълнителни екскурзии по желание. Нощувка.
+                    <br/><b>Ден 9:</b><br/>
+                    Закуска. Свободно време за плаж и забавления. Освобождаване на хотела. Привечер трансфер от хотела до летище Занзибар за полет Занзибар – България. Полет в 21:30 от Занзибар.
+                    <br/><b>Ден 10:</b><br/>
+                    Пристигане в България около 06:30.
+                </td>
+                <td>
+                    <img class="imgZanzibar" src="Photos/zanzibar1.jpg">
+                    <img class="imgZanzibar" src="Photos/zanzibar2.jpg">
+                    <img class="imgZanzibar" src="Photos/zanzibar3.png">
+                    <img class="imgZanzibar" src="Photos/zanzibar4.jpg">
+                </td>
+            </tr>
         </tbody>
     </table>
 
-
+    <div class="buttons">
+        <a href="html_transformation_1.html"><button>Основна информация за екскурзиите</button></a>
+        <a href="html_transformation_2.html"><button>Важна информация за екскурзиите</button></a>
+        <a href="html_transformation_3.html"><button>Повече информация за дестинациите</button></a>
+        <a href="html_transformation_5.html"><button>Условия</button></a>
+    </div>
 </body>
 
 </html>

@@ -21,10 +21,10 @@
                     <xsl:for-each select="excursions_catalog/excursions/excursion">
                         <tr>
                             <td>
-                                <xsl:value-of select="basic_info/code/@code"/>
+                                <xsl:value-of select="basic_info/@code"/>
                             </td>
                             <td>
-                                <xsl:value-of select="basic_info/category/@category"/>
+                                <xsl:value-of select="basic_info/@category"/>
                             </td>
                             <td>
                                 <xsl:value-of select="basic_info/name"/>
