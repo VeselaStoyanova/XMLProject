@@ -3,10 +3,64 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>XML Каталог за екскурзии</title>
+    <style>
+        body{
+            background-image: url("Photos/6834070e6a456c12b1ad080df4839d96.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #tableCenter{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            border-color: rgb(60,128,78);
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+        }
+
+        th{
+            font-size: 40px;
+            background-color: rgb(175,205,189);
+        }
+
+        td{
+            font-size: 25px;
+        }
+
+        #imgParis{
+            border-radius: 10px;
+            width: 350px;
+            height: 400px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        #imgDubai{
+            border-radius: 10px;
+            width: 400px;
+            height: 350px;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        #imgTenerife{
+            border-radius: 10px;
+            width: 400px;
+            height: 350px;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+    </style>
 </head>
 
 <body>
-    <table border="1">
+    <table id="tableCenter" border="1">
         <tbody>
             <tr background-color="#9acd32">
                 <th>Код</th>
@@ -18,31 +72,31 @@
                 <th>Снимка</th>
             </tr>
             <tr>
-                <td>ExcursionParis1</td>
+                <td style="font-weight: bold; font-size:30px">ExcursionParis1</td>
                 <td>Европа</td>
                 <td>Парижка магия</td>
                 <td>Париж</td>
                 <td>1000лв</td>
                 <td>Самолет</td>
-                <td><img src="Photos/paris.jpg"></td>
+                <td><img id="imgParis" src="Photos/paris.jpg"></td>
             </tr>
             <tr>
-                <td>ExcursionDubai1</td>
+                <td style="font-weight: bold; font-size:30px">ExcursionDubai1</td>
                 <td>Екзотика</td>
                 <td>Дубай - Рай в Ориента</td>
                 <td>Дубай</td>
                 <td>1400лв</td>
                 <td>Самолет</td>
-                <td><img src="Photos/dubai.jpg"></td>
+                <td><img id="imgDubai" src="Photos/dubai.jpg"></td>
             </tr>
             <tr>
-                <td>ExcursionCanaryIslands1</td>
+                <td style="font-weight: bold; font-size:30px">ExcursionCanaryIslands1</td>
                 <td>Европа</td>
                 <td>Лято в Атлантическия Рай - Канарски острови</td>
                 <td>остров Тенерифе, остров Гран Канария, остров Фуертевентура</td>
                 <td>1100лв</td>
                 <td>Самолет</td>
-                <td><img src="Photos/tenerife.jpg"></td>
+                <td><img id="imgTenerife" src="Photos/tenerife.jpg"></td>
             </tr>
         </tbody>
     </table>
